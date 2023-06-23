@@ -12,6 +12,7 @@ En esta práctica vamos a centrarnos en agregarle tests al proyecto utilizando l
 - El segundo desafío será testear el componente location-detail utilizando un mock de la feature de characters, para verificar que se invoca correctamente ese componente hijo.
 <br />
 <br />
+
 # Consigna de trabajo
 ¡Iniciamos! Lo primero que debemos hacer es identificar qué componentes —que no hemos testeado previamente— podemos testear con las herramientas de testing asincrónico que ya conocemos. Entre ellos podemos identificar los siguientes:
 - **features/navigation/navigation-mobile.component.tsx**
@@ -20,6 +21,7 @@ En esta práctica vamos a centrarnos en agregarle tests al proyecto utilizando l
   La dificultad más grande de este componente radica en que deberemos crear un mock para verificar que invocamos las veces correctas el componente hijo de card de characters, y junto con él la propiedad loading (que es añadida por el HOC de withLoading). Una vez que tengamos el mock correctamente creado y configurado, podemos proceder a realizar los tests de cada estado posible.
 <br />
 <br />
+
 ### **IMPORTANTE**
 
 Te dejamos el código base para que puedas comenzar a trabajar 
